@@ -1,0 +1,15 @@
+name: ${plugin.name}
+main: ${plugin.mainClass}
+version: "${project.version}-${git.commit.id.abbrev}"
+api: ["1.0.9"]
+authors: ["Overcast Network", "Austin Mayes"]
+description: Tracks more information surrounding deaths on Nukkit servers
+prefix: "${plugin.prefix}"
+
+# commands:
+#   example:
+#     description: Example command
+#     usage: "/example"
+#     aliases: ["xample", "nukkitexample"]
+#     permission: exampleplugin.command.example
+#     permission-message: "You do not have the required permission to run /example"
